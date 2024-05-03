@@ -1,0 +1,55 @@
+
+form {
+  max-width: 400px; / *  Максимальная ширина формы  * /
+  padding: 20px; / *  Внутренние отступы формы  * /
+  margin: 20px auto; / *  Отступы вокруг формы  * /
+  border: 1px solid #ccc; / *  Граница формы  * /
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); / *  Тень формы  * /
+  border-radius: 5px; / *  Скругление углов формы  * /
+  background: #f7f7f7; / *  Фон формы  * /
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%; / *  Ширина поля ввода равна ширине родительского элемента  * /
+  padding: 10px; / *  Отступы внутри поля ввода  * /
+  margin-bottom: 10px; / *  Нижний отступ между полями ввода  * /
+  border: 1px solid #ccc; / *  Граница поля ввода  * /
+  border-radius: 3px; / *  Скругление углов поля ввода  * /
+  box-sizing: border-box; / *  Учитывает padding и border в ширине элемента  * /
+}
+
+
+input[type="submit"] {
+  padding: 10px 20px; / *  Отступы внутри кнопки  * /
+  background-color: #4CAF50; / *  Цвет фона кнопки  * /
+  color: white; / *  Цвет текста кнопки  * /
+  border: none; / *  Убираем границу вокруг кнопки  * /
+  cursor: pointer; / *  Курсор меняется на указатель при наведении  * /
+  transition: background-color 0.3s; / *  Плавное изменение цвета фона  * /
+}
+
+
+input[type="submit"]:hover {
+  background-color: #388E3C; / *  Изменяем цвет фона при наведении  * /
+}
+
+
+a {
+  display: inline-block; / *  Делаем ссылку блочным элементом  * /
+  padding: 10px 20px; / *  Отступы вокруг ссылки  * /
+  background-color: #DDD; / *  Цвет фона ссылки  * /
+  color: black; / *  Цвет текста ссылки  * /
+  text-decoration: none; / *  Убираем подчеркивание текста  * /
+  margin-top: 10px; / *  Отступ сверху  * /
+}
+
+
+a:hover {
+  background-color: #CCC; / *  Изменяем цвет фона при наведении  * /
+}
+
+div.regi{
+  color: darkorange;
+  font-size: 18px;
+}

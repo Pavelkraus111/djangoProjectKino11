@@ -1,0 +1,113 @@
+/*.card {*/
+/*    background-color: darkgray;*/
+/*    border: 1px solid black;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*    min-width: 25%;*/
+/*    max-width: 50%;*/
+/*    align-content: space-around;*/
+/*    padding-bottom: 20px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.card a {*/
+/*    line-height: 2em;*/
+/*    text-decoration: none;*/
+/*    font-size: 1.5em;*/
+/*    color: black;*/
+/*}*/
+
+/*.card a:hover{*/
+/*    color: orangered;*/
+/*}*/
+
+/*.pagination a {*/
+/*    color: orange; / *  Цвет текста ссылок  * /*/
+/*    padding: 8px 16px; / *  Отступы вокруг ссылок  * /*/
+/*    background-color: #fff; / *  Фон ссылок  * /*/
+/*    border: 1px solid #dee2e6; / *  Граница ссылок  * /*/
+/*    margin-right: 8px; / *  Отступы между ссылками  * /*/
+
+/*}*/
+
+/*a {*/
+/*    text-decoration: none;*/
+
+/*}*/
+
+/*.pagination a:hover {*/
+/*    color: #0056b3; / *  Цвет текста ссылок при наведении  * /*/
+/*    background-color: #e9ecef; / *  Фон ссылок при наведении  * /*/
+/*    border-color: #dee2e6; / *  Цвет границы при наведении  * /*/
+/*}*/
+
+/*.pagination .current {*/
+/*    color: #495057; / *  Цвет текста текущей страницы  * /*/
+/*    background-color: #e9ecef; / *  Фон текущей страницы  * /*/
+/*    pointer-events: none; / *  Убираем возможность клика по текущей странице  * /*/
+/*    cursor: default; / *  Курсор в виде стрелки при наведении на текущую страницу  * /*/
+/*}*/
+
+/*################*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://avatars.mds.yandex.net/i?id=f1c030d0cd436295b1423f969f20942fc87ed140-9725170-images-thumbs&n=13');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    text-decoration-color: crimson;
+    }
+.card {
+    background-color: crimson;
+    opacity: 80%;
+
+    border: 1px solid #6e6868;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 20%;
+    max-width: 40%;
+    align-content: center;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.card a {
+    line-height: 2em;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: red;
+}
+
+.card a:hover {
+    color: orangered;
+}
+
+.pagination a {
+    color: orange; / *  Цвет текста ссылок  * /
+    padding: 8px 16px; / *  Отступы вокруг ссылок  * /
+    background-color: red; / *  Фон ссылок  * /
+    border: 1px solid #dee2e6; / *  Граница ссылок  * /
+    margin-right: 8px; / *  Отступы между ссылками  * /
+}
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.pagination a:hover {
+    color: #0056b3; / *  Цвет текста ссылок при наведении  * /
+    background-color: #e9ecef; / *  Фон ссылок при наведении  * /
+    border-color: #dee2e6; / *  Цвет границы при наведении  * /
+}
+
+.pagination .current {
+    color: orangered; / *  Цвет текста текущей страницы  * /
+    background-color: #e9ecef; / *  Фон текущей страницы  * /
+    pointer-events: none; / *  Убираем возможность клика по текущей странице  * /
+    cursor: default; / *  Курсор в виде стрелки при наведении на текущую страницу  * /
+}

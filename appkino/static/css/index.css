@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://avatars.mds.yandex.net/i?id=32fecf45d75b14cfc2272c96376cac304115d712-12540073-images-thumbs&n=13');
+
+
+
+    }
+
+div.content{
+    color: #ff6600;
+    }
+
+a {
+    color: #ff6600;
+    }
+
+
+menu {
+    color: #ff6600;
+    display: flex;
+    justify-content: center;
+    background-color: lightslategrey;
+    padding: 10px;
+    }
+
+
+menu a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 1.5em;
+    margin: 0 10px;
+    line-height: 2em;
+
+    }
+
+menu a:hover {
+    color: #ff6600;
+    }
+p {
+    color: crimson;
+
+ }
+

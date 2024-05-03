@@ -1,0 +1,43 @@
+
+form {
+  width: 300px; / *  Устанавливаем ширину формы  * /
+  margin: 50px auto; / *  Отступы и центрирование формы  * /
+ }
+
+
+input[type="submit"] {
+  padding: 10px 20px; / *  Отступы внутри кнопки  * /
+  background-color: #4CAF50; / *  Цвет фона кнопки  * /
+  color: white; / *  Цвет текста кнопки  * /
+  border: none; / *  Убираем границу вокруг кнопки  * /
+  cursor: pointer; / *  Курсор меняется на указатель при наведении  * /
+  transition: background-color 0.3s; / *  Плавное изменение цвета фона  * /
+}
+
+
+input[type="submit"]:hover {
+  background-color: orangered; / *  Изменяем цвет фона при наведении  * /
+}
+
+
+a {
+  display: inline-block; / *  Делаем ссылку блочным элементом  * /
+  padding: 10px 20px; / *  Отступы вокруг ссылки  * /
+  background-color: #DDD; / *  Цвет фона ссылки  * /
+  color: black; / *  Цвет текста ссылки  * /
+  text-decoration: none; / *  Убираем подчеркивание текста  * /
+  margin-top: 10px; / *  Отступ сверху  * /
+}
+
+
+a:hover {
+  background-color: #CCC; / *  Изменяем цвет фона при наведении  * /
+}
+label.for.id_username {
+    background-color: #ff6600;
+}
+
+div.logi{
+  color: darkorange;
+  
+}
